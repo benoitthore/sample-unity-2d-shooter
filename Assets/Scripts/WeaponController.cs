@@ -40,7 +40,6 @@ public class WeaponController : MonoBehaviour
         {
             flip();
         }
-
     }
 
     private void flip()

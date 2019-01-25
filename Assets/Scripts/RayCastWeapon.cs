@@ -46,7 +46,7 @@ public class RayCastWeapon : MonoBehaviour
 
 
         var from = firePoint.position;
-        var to = firePosition - target.transform.position ;
+        var to = firePosition - target.transform.position;
 
 
         RaycastHit2D hitInfo = Physics2D.Raycast(firePosition, to);
